@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: render - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP310F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/render.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\数据\学习\图形学\软渲\render\axis_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\geometry_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\light_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\load_image_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\math_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\renderer_device_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\renderer_imple.cpp"
+"D:\数据\学习\图形学\软渲\render\test_main.cpp"
+"D:\数据\学习\图形学\软渲\render\win32window_imagedraw_imple.cpp"
+]
+Creating command line "cl.exe @C:\Users\dell\AppData\Local\Temp\RSP310F.tmp" 
+Creating temporary file "C:\Users\dell\AppData\Local\Temp\RSP3110.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/render.pdb" /debug /machine:I386 /out:"Debug/render.exe" /pdbtype:sept 
+".\Debug\axis_imple.obj"
+".\Debug\geometry_imple.obj"
+".\Debug\light_imple.obj"
+".\Debug\load_image_imple.obj"
+".\Debug\math_imple.obj"
+".\Debug\renderer_device_imple.obj"
+".\Debug\renderer_imple.obj"
+".\Debug\test_main.obj"
+".\Debug\win32window_imagedraw_imple.obj"
+]
+Creating command line "link.exe @C:\Users\dell\AppData\Local\Temp\RSP3110.tmp"
+<h3>Output Window</h3>
+Compiling...
+axis_imple.cpp
+geometry_imple.cpp
+light_imple.cpp
+load_image_imple.cpp
+math_imple.cpp
+renderer_device_imple.cpp
+renderer_imple.cpp
+test_main.cpp
+win32window_imagedraw_imple.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+render.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
